@@ -20,6 +20,12 @@
 	     A member of the quotationtool website"
       />
 
+  <role
+      id="quotationtool.Creator"
+      title="[creator-role-title]
+	     The creator of a content item"
+      />
+
   <!-- permissions granted to Member -->
   <grant
       permission="zope.View"
