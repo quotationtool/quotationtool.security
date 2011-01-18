@@ -1,0 +1,77 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    i18n_domain="quotationtool">
+
+  <role
+      id="quotationtool.Visitor"
+      title="[visitor-role-title]
+	     Visitor of the quotationtool website"
+      />
+
+  <role
+      id="quotationtool.Editor"
+      title="[editor-role-title]
+	     An Editor of the quotationtool website"
+      />
+
+  <role
+      id="quotationtool.Member"
+      title="[member-role-title]
+	     A member of the quotationtool website"
+      />
+
+  <!-- permissions granted to Member -->
+  <grant
+      permission="zope.View"
+      role="quotationtool.Member"
+      />
+  <grant
+      permission="zope.Public"
+      role="quotationtool.Member"
+      />
+  <grant
+      permission="zope.ManageContent"
+      role="quotationtool.Member"
+      />
+  <grant
+      permission="zope.dublincore.view"
+      role="quotationtool.Member"
+      />
+  <grant
+      permission="zope.dublincore.change"
+      role="quotationtool.Member"
+      />
+
+  <!-- permissions granted to Editor -->
+  <grant
+      permission="zope.View"
+      role="quotationtool.Editor"
+      />
+  <grant
+      permission="zope.Public"
+      role="quotationtool.Editor"
+      />
+  <grant
+      permission="zope.ManageContent"
+      role="quotationtool.Editor"
+      />
+  <grant
+      permission="zope.dublincore.view"
+      role="quotationtool.Editor"
+      />
+  <grant
+      permission="zope.dublincore.change"
+      role="quotationtool.Editor"
+      />
+
+  <!-- permissions granted to Visitor -->
+  <grant
+      permission="zope.View"
+      role="quotationtool.Visitor"
+      />
+  <grant
+      permission="zope.Public"
+      role="quotationtool.Visitor"
+      />
+
+</configure>
