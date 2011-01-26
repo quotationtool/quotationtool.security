@@ -51,7 +51,6 @@ setup(
     extras_require = dict(
         test = [
             'zope.testing',
-            'zope.testrunner',
             'zope.configuration',
             ],
         ),
