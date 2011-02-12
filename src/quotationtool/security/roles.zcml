@@ -70,6 +70,28 @@
       role="quotationtool.Editor"
       />
 
+  <!-- permissions granted to Creator -->
+  <grant
+      permission="zope.View"
+      role="quotationtool.Creator"
+      />
+  <grant
+      permission="zope.Public"
+      role="quotationtool.Creator"
+      />
+  <grant
+      permission="zope.ManageContent"
+      role="quotationtool.Creator"
+      />
+  <grant
+      permission="zope.dublincore.view"
+      role="quotationtool.Creator"
+      />
+  <grant
+      permission="zope.dublincore.change"
+      role="quotationtool.Creator"
+      />
+
   <!-- permissions granted to Visitor -->
   <grant
       permission="zope.View"

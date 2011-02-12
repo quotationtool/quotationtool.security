@@ -48,6 +48,9 @@ setup(
         'zope.security',
         'zope.securitypolicy',
         'zope.dublincore',
+
+        #BBB:
+        'quotationtool.user',
         ],
     extras_require = dict(
         test = [
