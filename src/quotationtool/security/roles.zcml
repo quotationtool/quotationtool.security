@@ -5,25 +5,31 @@
   <role
       id="quotationtool.Visitor"
       title="[visitor-role-title]
-	     Visitor of the quotationtool website"
-      />
-
-  <role
-      id="quotationtool.Editor"
-      title="[editor-role-title]
-	     An Editor of the quotationtool website"
+	     Unauthenticated visitor of the quotationtool website."
       />
 
   <role
       id="quotationtool.Member"
       title="[member-role-title]
-	     A member of the quotationtool website"
+	     A member of the quotationtool website. Has the permission to add new items and change the ones he/she created himself/herself or items that he/she was invented to work on."
+      />
+
+  <role
+      id="quotationtool.Editor"
+      title="[editor-role-title]
+	     An Editor of the quotationtool website. Has the permission to review, modify and publish entries created by others. Member of the editorial board."
+      />
+
+  <role
+      id="quotationtool.Manager"
+      title="[manager-role-title]
+	     A manager of the quotationtool website. Has the permission to manage the website's configuration and reset core parts of the site. Has the permission to manage user permissions and roles."
       />
 
   <role
       id="quotationtool.Creator"
       title="[creator-role-title]
-	     The creator of a content item"
+	     The creator of a content item. Handled internally, only!"
       />
 
   <!-- permissions granted to Member -->
