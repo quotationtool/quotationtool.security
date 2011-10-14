@@ -50,7 +50,7 @@ setup(
         'zope.dublincore',
 
         #BBB:
-        'quotationtool.user',
+        #'quotationtool.user',
         ],
     extras_require = dict(
         test = [
